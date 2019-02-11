@@ -20,7 +20,7 @@ def first_challenge
       
       data.each do |key, value|
         if key == :favorite_icecream_flavors
-          value.collect {|i| i.delete_if == "strawberr"y}
+          value.collect {|i| i.delete_if == "strawberry"}
         end
       end
     end
